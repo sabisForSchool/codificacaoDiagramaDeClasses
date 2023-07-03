@@ -1,5 +1,5 @@
 export class Revista{
-    constructor(titulo, issn, periodicidade){
+    constructor(titulo, issn, periodicidade){//no js não há como criar atributos privados, nem todos os navegadores suportam a suposta forma de torná-los privados
         this.titulo = titulo,
         this.issn = issn,
         this.periodicidade = periodicidade
